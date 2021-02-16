@@ -2,8 +2,8 @@ var express= require('express');
 var mangojs = require('mongojs');
 
 var app=express();
-
-var cString ="mongodb+srv://kalyanyekupati:kalyan765990@cluster0.tex7j.mongodb.net/<dbname>?retryWrites=true&w=majority"
+/* cString = Link That is Available in Your MangoDB account and copy that and paste it Here.*/
+var cString ="mongodb+srv://"Here you have to enter your mangoDB database name and password "@cluster0.tex7j.mongodb.net/<dbname>?retryWrites=true&w=majority"
 var db= mangojs(cString,['users']);
 
 app.use(express.static('public'));
@@ -34,12 +34,16 @@ app.get("/registersubmit" , function(req,res){
     })
 })
 
+/* storing in the database */
+
 app.get('/loginsubmit' ,function(req,res){
 	 var data={
 	 	email : req.query.email_id,
 	 	password : req.query.pass_word
 
 	 }
+	 /* Checking mail and Password */
+	 
 	 db.users.find(data,function(err,docs){
 	 	if(err){
 	 		res.send("something went wrong")

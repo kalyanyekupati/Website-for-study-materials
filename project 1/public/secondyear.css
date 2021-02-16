@@ -1,0 +1,28 @@
+.semone{
+	float: left;
+	background-color: #F15F79;
+	width: 530px;
+	height: 600px;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.semtwo{
+	float: right;
+	background-color: #B24592;
+	width: 530px;
+	height: 600px;
+	margin-right: 100px;
+	margin-top: 40px;
+}
+.subjects li{
+	font-family: 'Josefin Sans',sans-serif;
+	font-weight: 600;
+	margin-top: 50px;
+	color: white;
+
+}
+.subjects ul li button{
+	float: right;
+	margin-right: 30px;
+}

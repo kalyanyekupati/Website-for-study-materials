@@ -1,0 +1,74 @@
+.mainbody{
+	background-color: #D2CECE;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.content{
+	border-radius: 17px;
+	
+	background-color: white;
+    margin: auto;
+    width: 450px;
+    height: 450px
+   
+}
+.headertitle{
+    border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+    background-color: #B24592;
+    padding: 10px;
+    font-size: 27px;
+
+    color: white;
+    text-align: center;
+}
+.inputsection{
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 18px;
+
+}
+.inputbox{
+	padding: 11px;
+	width: 92%;
+    border-radius: 33px;
+    background-color: #d8d3d3;
+    border: 0;
+
+}
+.Forgot{
+	text-align: right;
+    
+}
+.sign{
+	margin-top: 20px;
+	background-color: #B24592;
+    border-radius: 12px;
+    padding: 11px;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+    
+}
+.si{
+	margin: auto;
+	width: 80%;
+
+}
+.ungreen{
+	color: #329432;
+}
+.noacc{
+	text-align: center;
+	color: gray;
+}
+.signup{
+	text-align: center;
+	padding: 10px;
+	color: #329432;
+	font-weight: bold;
+}
+.bottom{
+	padding:150px;
+}

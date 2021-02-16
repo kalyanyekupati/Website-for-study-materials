@@ -1,0 +1,44 @@
+body h1{
+	color: white;
+	text-align: center;
+	margin: auto;
+
+}
+body button{
+	width: 250px;
+	height: 40px;
+	border:2px solid blue;
+	color: black;
+	margin-left: 33px;
+	margin-top: 170px;
+	border-radius: 10px;
+	background-color:white;
+	font-size: 19px;
+
+
+
+}
+button:hover{
+	border-color: green;
+	background-color: #329432;
+	color:white;
+}
+.one{
+	font-size: 40px;
+}
+.buttons{
+	background-color:background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff00cc, #333399);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff00cc, #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+border:2px solid white;
+	width: 600px;
+	height: 400px;
+	margin-left: 370px;
+	border-radius: 15px;
+
+}
+.buttons:hover{
+	background-color:;
+
+}

@@ -1,4 +1,4 @@
-# website-for-study-pdfs
+# website-for-study-materials
 
 This project is created with HTML, Css, JavaScript, MangoDB, and Nodejs.
 
